@@ -52,13 +52,13 @@ class ATM:
 
 
 
-atm = ATM(1234, "Navjot", 50000)
+    atm = ATM(1234, "Navjot", 50000)
 
-atm.authenticate(1234)
+    atm.authenticate(1234)
 
-atm.deposit(5000)
-atm.withdraw(10000)
+    atm.deposit(5000)
+    atm.withdraw(10000)
 
-atm.mini_statement()
+    atm.mini_statement()
 
-print("Current Balance:", atm.balance)
+    print("Current Balance:", atm.balance)
