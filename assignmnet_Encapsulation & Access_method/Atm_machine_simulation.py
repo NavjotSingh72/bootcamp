@@ -51,14 +51,13 @@ class ATM:
         return self.__balance
 
 
+Atm = ATM(1234, "Navjot", 50000)
 
-    atm = ATM(1234, "Navjot", 50000)
+Atm.authenticate(1234)
 
-    atm.authenticate(1234)
+Atm.deposit(5000)
+Atm.withdraw(10000)
 
-    atm.deposit(5000)
-    atm.withdraw(10000)
+Atm.mini_statement()
 
-    atm.mini_statement()
-
-    print("Current Balance:", atm.balance)
+print("Current Balance:", Atm.balance)
