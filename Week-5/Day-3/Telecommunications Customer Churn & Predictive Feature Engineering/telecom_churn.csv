@@ -1,0 +1,11 @@
+CustomerID,Gender,Tenure,MonthlyCharges,TotalCharges,ContractType,Churn
+C001,Male,2,250,500,Month-to-Month,Yes
+C002,Female,10,450,4500,One Year,No
+C003,Male,5,300,1500,Month-to-Month,Yes
+C004,Female,20,600,12000,Two Year,No
+C005,Male,15,550,8250,One Year,No
+C006,Female,1,200,200,Month-to-Month,Yes
+C007,Male,30,700,21000,Two Year,No
+C008,Female,8,350,2800,Month-to-Month,Yes
+C009,Male,12,500,6000,One Year,No
+C010,Female,25,650,16250,Two Year,No
